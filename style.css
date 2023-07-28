@@ -1,7 +1,7 @@
-:root{
+:root{      
     background-color: grey;
     background-image: url(webFundo.jpg);
-    background-position: center center;
+    background-position:unset;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -10,7 +10,10 @@
     overflow-wrap: break-word;
 
     --gradient: linear-gradient(45deg, #FDFF00, #9CFF2E, #38E54D, #2192FF);
-    --gradient2: linear-gradient(45deg, #ffed00 , #000000 , #FFED00 , #ffed00  );
+    --gradient2: linear-gradient(45deg, #ffed00 , #000000 , #FFED00 , #ffed00  ); 
+    
+    /*  as cores estão em degrade , posso esolher as palhetas que melhor combinem com 
+    o fundo . referencias de paletas de cores no site do colorHunt  */
     
     
 
@@ -88,7 +91,7 @@ header{
     .body{
         background-image: url(fundo.jpg);
         background-repeat: no-repeat;
-        background-position:center center;
+        background-position:unset ;
         background-size: cover;
         min-height: 100%;
         
@@ -98,7 +101,7 @@ header{
     .container-textos{
         border: 2px solid;
         font-family: Verdana, Tahoma, sans-serif;
-        color: white;
+        color: black;
     }
 
     h1{
